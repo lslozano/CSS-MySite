@@ -1,0 +1,153 @@
+/*******************TAG SELECTORS*******************/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+  color: #11999E 
+}
+
+hr {
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
+  margin: auto;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/*******************CLASS SELECTORS*******************/
+.bottom-cloud {
+  position: absolute;
+  left: 325px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-container > p {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #11999E;
+  border: solid #11999E 1px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 34px 0 80px 0;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.btn:hover {
+  background: #66BFBF;
+  border: solid #66BFBF 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-me > h2 {
+  margin-top: 80px;
+}
+
+.contact-me > p {
+  margin: 40px auto 40px;
+  width: 40%;
+}
+
+.deku {
+  float: left;
+  margin: 0 30px 0 0;
+  width: 25%;
+}
+
+.deku2 {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.profile > img {
+  width: 12.5%;
+  padding-top: 45px;
+}
+
+.profile > p {
+  margin: auto auto 80px auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 325px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
